@@ -36,8 +36,8 @@ Los usuarios serán capaces de:
 
 ### Links
 
-- URL Solución: [Todo App Main Frontend Mentor Solution](https://github.com/BraianGazano/Calculator-app)
-- URL sitio desplegado: [Todo App Main Live Site](https://calculator-app-jwtvwvguu-braiangazano.vercel.app/)
+- URL Solución: [Calculator Frontend Mentor Solution](https://github.com/BraianGazano/Calculator-app)
+- URL sitio desplegado: [Calculator Live Site](https://calculator-app-jwtvwvguu-braiangazano.vercel.app/)
 
 ## My process
 
