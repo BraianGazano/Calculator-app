@@ -156,7 +156,7 @@ body {
 /*-----------------------------------------------*/
 /*----------------Keys Background----------------*/
 /*-----------------------------------------------*/
-.background{
+.key-background{
     width: 450px;
     border-radius: 5px;
     padding: 20px;
@@ -267,7 +267,7 @@ body {
     background-color: var(--Dark-violet);
     border-color: var(--Vivid-magenta);
 }
-.theme-three .background, .theme-three .toggle-btn{
+.theme-three .key-background, .theme-three .toggle-btn{
     background-color: var(--Very-dark-violet-scr);
 }
 
@@ -311,7 +311,7 @@ body {
     background-color: var(--Dark-moderate-cyan);
     border-color: var(--Very-dark-cyan);
 }
-.theme-two .background, .theme-two .toggle-btn{
+.theme-two .key-background, .theme-two .toggle-btn{
     background-color: var(--Grayish-red);
 }
 
@@ -340,7 +340,7 @@ body {
         height: 3em;
         font-size: 1.5em;
     }
-    .display-console, .background{
+    .display-console, .key-background{
         width: 90%;
     }
     .calculator-grid{
@@ -348,6 +348,9 @@ body {
     }
     .calculator-grid >.buttons {
         grid-template-columns: repeat(4, 90px);
+    }
+    body{
+        padding: 1em;
     }
 } 
 @media (min-width: 300px) and (max-width: 499px) {
@@ -359,12 +362,15 @@ body {
         height: 2em;
         font-size: 1.5em;
     }
-    .display-console, .background ,.calculator-grid{
+    .display-console, .key-background ,.calculator-grid{
         width: 100%;
     }
     .calculator-grid >.buttons {
         display: grid;
         grid-template-columns: repeat(4, 80px);
+    }
+    body{
+        padding: 1em;
     }
 } 
 
